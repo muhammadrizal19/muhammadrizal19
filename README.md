@@ -21,7 +21,8 @@ Output
 # 2.) Buat codingan dari flowchart yang menentukan bilangan terbesar dari N bilangan yang diinputkan. untuk menentukan jumlah N, berikan masukkan angka 0
 
 Berikut adalah flowchart nya  
-
+![IMG-20241027-WA0030](https://github.com/user-attachments/assets/010a8864-c29c-4abc-b9b0-742c073f786a)
+![Screenshot_20241028_075809_Chrome](https://github.com/user-attachments/assets/3385ed0e-42d0-49bc-a853-683f2f89b1ae)
 Inisialisasi Variabel terbesar = float('-inf')
 
 variabel terbesar diinisialisasi dengan nilai negatif tak terhingga (-inf). Ini dilakukan agar setiap bilangan yang dimasukkan oleh pengguna akan lebih besar dari nilai ini pada awalnya.
@@ -35,7 +36,7 @@ Perumusan dan Perbandingan for i in range(n): bilangan = float(input(f"masukkan 
 
 program akan melakukan iterasi sebanyak n kali. Pada setiap iterasi, pengguna diminta untuk memasukkan bilangan. Program kemudian membandingkan bilangan yang dimasukkan dengan nilai terbesar. Jika bilangan yang dimasukkan lebih besar dari terbesar, maka nilai terbesar akan diperbarui dengan bilangan tersebut.
 Hasil Output print(f"bilangan terbesar adalah: {terbesar}")
-
+![Screenshot_20241028_075151_Chrome](https://github.com/user-attachments/assets/9c000dae-6394-43a3-be36-a176691f6cf7)
 
 
 Setelah semua bilangan dimasukkan dan dibandingkan, program akan mencetak bilangan terbesar yang ditemukan.
