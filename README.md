@@ -1,5 +1,6 @@
 # 1.) Buat codingan dari flowchart yang menentukan bilangan terbesar dari 3 bilangan yang diinputkan
 Berikut adalah flowchart nya  
+![IMG-20241027-WA0031](https://github.com/user-attachments/assets/8b94451b-2ea4-4f10-b4a1-ae3d4ff8c491)
 ![Screenshot_20241027_195604_Chrome](https://github.com/user-attachments/assets/e883699a-60b2-4361-b574-d53b6448432b)
 Input bilangan
 Pengguna diminta untuk memasukkan tiga bilangan satu per satu. Nilai yang dimasukkan akan dikonversi menjadi tipe data float, yang memungkinkan pengguna memasukkan angka desimal.
