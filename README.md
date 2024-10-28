@@ -16,3 +16,29 @@ Penggunaan (if-elif-else):
 Output
 
 ![Screenshot_20241027_190830_Chrome](https://github.com/user-attachments/assets/4951643d-e018-4f78-9be8-49968fdeeb9b)
+
+
+# 2.) Buat codingan dari flowchart yang menentukan bilangan terbesar dari N bilangan yang diinputkan. untuk menentukan jumlah N, berikan masukkan angka 0
+
+Berikut adalah flowchart nya  
+
+Inisialisasi Variabel terbesar = float('-inf')
+
+variabel terbesar diinisialisasi dengan nilai negatif tak terhingga (-inf). Ini dilakukan agar setiap bilangan yang dimasukkan oleh pengguna akan lebih besar dari nilai ini pada awalnya.
+Input Jumlah Bilangan n = int(input("masukkan jumlah bilangan (N) atau 0 untuk mengakhiri: "))
+
+Program meminta pengguna untuk memasukkan jumlah bilangan yang ingin dimasukkan. Pengguna dapat memasukkan angka positif untuk menentukan jumlah bilangan atau 0 untuk mengakhiri program.
+Pengecekan Input Awal if n == 0: print("Tidak ada bilangan yang dimasukkan.") return
+
+Jika pengguna memasukkan 0, program akan mencetak pesan bahwa tidak ada bilangan yang dimasukkan dan kemudian keluar dari fungsi dengan menggunakan return.
+Perumusan dan Perbandingan for i in range(n): bilangan = float(input(f"masukkan bilangan ke-{i+1}: ")) if bilangan > terbesar: terbesar = bilangan
+
+program akan melakukan iterasi sebanyak n kali. Pada setiap iterasi, pengguna diminta untuk memasukkan bilangan. Program kemudian membandingkan bilangan yang dimasukkan dengan nilai terbesar. Jika bilangan yang dimasukkan lebih besar dari terbesar, maka nilai terbesar akan diperbarui dengan bilangan tersebut.
+Hasil Output print(f"bilangan terbesar adalah: {terbesar}")
+
+
+
+Setelah semua bilangan dimasukkan dan dibandingkan, program akan mencetak bilangan terbesar yang ditemukan.
+Pemanggilan Fungsi cari_terbesar_dari_n()
+
+Terakhir, fungsi cari_terbesar_dari_n() dipanggil untuk menjalankan program.
