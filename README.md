@@ -14,3 +14,5 @@ Penggunaan (if-elif-else):
 -else: Jika kedua kondisi di atas salah, maka c yang dianggap sebagai bilangan terbesar.
 
 Output
+
+![Screenshot_20241027_190830_Chrome](https://github.com/user-attachments/assets/4951643d-e018-4f78-9be8-49968fdeeb9b)
